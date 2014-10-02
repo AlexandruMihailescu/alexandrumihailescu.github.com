@@ -1,1 +1,3 @@
-baseurl: /alexandrumihailescu.github.com
+name: "Alexandru Mihailescu"
+baseurl: "/alexandrumihailescu.github.com"
+markdown: rdiscount
