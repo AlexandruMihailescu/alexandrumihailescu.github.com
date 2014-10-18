@@ -218,14 +218,6 @@ nav.expanded #navigation {
   padding: 1em 0;
 }
 
-/* makes link font bigger */
-#navigation ul a {
-  font-size: 1.8em;
-  font-weight: bold;
-  padding: 0 15%;
-  target-new: tab;
-}
-
 /* subheading span styling */
 #navigation ul span {
   font-family: 'Century Gothic',sans-serif;
@@ -236,7 +228,13 @@ nav.expanded #navigation {
   display: block;
 }
 
-
+/* makes link font bigger */
+#navigation ul a {
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 0 15%;
+  target-new: tab;
+}
 
 /* === MENU ICONS === */
 /* ================== */
