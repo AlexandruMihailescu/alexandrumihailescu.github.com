@@ -89,7 +89,7 @@ ul {
 
 nav {
   color: White;
-  background: Black;
+  background: rgba(15,31,71,1);
   position: absolute;
   top: 0;
   width: 100%;
@@ -129,7 +129,7 @@ nav {
 
 /* on navigation hover add slight white bg */
 nav:hover {
-  background: rgba(0,0,0,.7);
+  background: rgba(15,31,71,.9);
 }
 
 /* limits width of menu to site width */
@@ -141,7 +141,7 @@ nav:hover {
 /* name of site in main menu (not user selectable) */
 .site-width>a {
   font-weight: bold;
-  color: #555;
+  color: #ADC2EB;
   line-height: 1.9em;
   -webkit-user-select: none;
   -moz-user-select: none;
@@ -165,7 +165,7 @@ nav.invisible {
 /* when shown & detached position is fixed */
 nav.detached {
   position: fixed;
-  background: rgba(0,0,0,.9);
+  background: rgba(15,31,71,.9);
   -webkit-transition: -webkit-transform .3s, height .3s, background .4s, opacity .3s;
   -moz-transition: -moz-transform .3s, height .3s, background .4s, opacity .3s;
   -o-transition: -o-transform .3s, height .3s, background .4s, opacity .3s;
@@ -183,7 +183,7 @@ nav.expanded {
   height: 100%;
   position: fixed;
   cursor: default;
-  background: rgba(0,0,0,.9);
+  background: rgba(15,31,71,.9);
 }
 
 /* positions navigation content */
@@ -225,7 +225,6 @@ nav.expanded #navigation {
 #navigation ul span {
   font-family: 'Century Gothic';
   font-size: .75em;
-  letter-spacing: .2em;
   text-transform: uppercase;
   color: #666;
   display: block;
