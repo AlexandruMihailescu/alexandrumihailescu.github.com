@@ -20,6 +20,9 @@
   transition: color .4s;
 }
 
+.innewtab {
+  target-new: tab;
+}
 body {
   font-family: 'Century Gothic';
   color: Black;
@@ -48,7 +51,7 @@ body.no_scroll {
 }
 
 a:link, a:visited {
-  color: #2ecc71;
+  color: #000066;
   text-decoration: none;
   -moz-transition: all .3s;
   -webkit-transition: all .3s;
@@ -220,7 +223,7 @@ nav.expanded #navigation {
 
 /* subheading span styling */
 #navigation ul span {
-  font-family: 'Century Gothic',sans-serif;
+  font-family: 'Century Gothic';
   font-size: .75em;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -230,10 +233,9 @@ nav.expanded #navigation {
 
 /* makes link font bigger */
 #navigation ul a {
+  font-family: 'Century Gothic';
   font-size: 1.2em;
-  font-weight: bold;
   padding: 0 15%;
-  target-new: tab;
 }
 
 /* === MENU ICONS === */
