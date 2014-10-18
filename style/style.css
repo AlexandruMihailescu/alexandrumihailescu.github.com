@@ -28,7 +28,7 @@
 
 body {
   font-family: 'Century Gothic';
-  color: #444;
+  color: Black;
   -webkit-font-smoothing: antialiased;
   background: #ecf0f1;
   font-size: .75em;
@@ -92,7 +92,8 @@ ul {
 /* ======================= */
 
 nav {
-  color: #333;
+  color: White;
+  background: Black;
   position: absolute;
   top: 0;
   width: 100%;
@@ -169,7 +170,7 @@ nav.invisible {
 /* when shown & detached position is fixed */
 nav.detached {
   position: fixed;
-  background: rgba(255,255,255,.9);
+  background: rgba(0,0,0,.9);
   -webkit-transition: -webkit-transform .3s, height .3s, background .4s, opacity .3s;
   -moz-transition: -moz-transform .3s, height .3s, background .4s, opacity .3s;
   -o-transition: -o-transform .3s, height .3s, background .4s, opacity .3s;
@@ -187,7 +188,7 @@ nav.expanded {
   height: 100%;
   position: fixed;
   cursor: default;
-  background: rgba(255,255,255,.85);
+  background: rgba(0,0,0,.9);
 }
 
 /* positions navigation content */
@@ -198,7 +199,7 @@ nav.expanded {
   transform: translate(0,-700px);
   opacity: 0;
   padding-top: 2em;
-  width: 50%;
+  width: 90%;
   margin: 0 auto;
   text-align: center;
   -webkit-transition: -webkit-transform .15s, opacity .7s;
@@ -234,7 +235,7 @@ nav.expanded #navigation {
 
 /* subheading span styling */
 #navigation ul span {
-  font-family: Georgia, serif;
+  font-family: 'Century Gothic',sans-serif;
   font-size: .75em;
   letter-spacing: .2em;
   text-transform: uppercase;
@@ -302,10 +303,6 @@ nav.expanded #navigation {
 
 /* blurring content */
 .blurred {
-  -webkit-transform: scale(.99);
-  -moz-transform: scale(.99);
-  -o-transform: scale(.99);
-  transform: scale(.99);
   -webkit-filter: blur(5px);
   -moz-filter: blur(5px);
   -o-filter: blur(5px);
@@ -333,11 +330,6 @@ footer {
 
 footer:hover {
   opacity: 1;
-}
-
-.twitter-share-button {
-  vertical-align: -15%;
-  margin-right: -25px !important;
 }
 
 .logo {
