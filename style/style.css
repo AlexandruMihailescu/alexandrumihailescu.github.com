@@ -51,7 +51,7 @@ body.no_scroll {
 }
 
 a:link, a:visited {
-  color: #000066;
+  color: #3366CC;
   text-decoration: none;
   -moz-transition: all .3s;
   -webkit-transition: all .3s;
@@ -60,7 +60,7 @@ a:link, a:visited {
 }
 
 a:hover {
-  color: #2980b9;
+  color: #ADC2EB;
 }
 
 p {
@@ -265,17 +265,17 @@ nav.expanded #navigation {
 
 /* icon colour */
 .icon:before, .icon:active:before {
-  color: #2ecc71;
+  color: #3366CC;
 }
 
 /* changes colour on hover or keyboard focus */
 .icon:hover:before, .icon:focus:before {
-  color: #555;
+  color: #ADC2EB;
 }
 
 /* changes icon to an “X” */
 .expanded .icon:before {
-  content: 'x';
+  content: 'X';
   font-size: 1.4em;
   line-height: 1.4em;
   padding-right: .15em;
