@@ -231,6 +231,7 @@ nav.expanded #navigation {
   font-size: 1.8em;
   font-weight: bold;
   padding: 0 15%;
+  target-new: tab;
 }
 
 /* subheading span styling */
