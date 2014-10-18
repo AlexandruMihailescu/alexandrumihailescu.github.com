@@ -1,7 +1,11 @@
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %} 
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, minimal-ui" />
+    <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/style/style.css" />
     <title>{{ page.title }}</title>
   </head>
   <body>
