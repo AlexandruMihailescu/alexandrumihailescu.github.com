@@ -3,12 +3,6 @@
   src: local(GOTHIC), url('fonts/GOTHIC.ttf') format('opentype');
 }
 
-@font-face {
-  font-family: 'Century Gothic';
-  font-weight: normal;
-  font-style: normal;
-}
-
 [data-icon]:before {
   font-family: 'Century Gothic';
   content: attr(data-icon);
