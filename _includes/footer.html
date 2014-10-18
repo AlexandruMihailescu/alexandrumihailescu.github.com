@@ -1,8 +1,10 @@
-    <div>
+{% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %} 
+{% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}  
+   <div>
       Footer loaded!
     </div>
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="/js/navbar.js"></script>
+  <script src="{{ site.url }}/js/navbar.js"></script>
   </body>
 </html>
 
