@@ -1,6 +1,6 @@
 @font-face {
   font-family: 'Century Gothic';
-  src: local(GOTHIC), url('fonts/GOTHIC.ttf') format('opentype');
+  src: local('Century Gothic'), url('fonts/GOTHIC.ttf') format('opentype');
 }
 
 [data-icon]:before {
