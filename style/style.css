@@ -1,6 +1,5 @@
 @font-face {
   font-family: 'Century Gothic';
-  src:url('fonts/sicanstudios-demo.eot');
 }
 
 @font-face {
@@ -82,7 +81,6 @@ ul {
 }
 
 #content, footer {
-  max-width: 730px;
   margin: 0 auto;
 }
 
@@ -133,12 +131,11 @@ nav {
 
 /* on navigation hover add slight white bg */
 nav:hover {
-  background: rgba(255,255,255,.7);
+  background: rgba(0,0,0,.7);
 }
 
 /* limits width of menu to site width */
 .site-width {
-  max-width: 740px;
   margin: 0 auto;
   padding: 0 2%;
 }
