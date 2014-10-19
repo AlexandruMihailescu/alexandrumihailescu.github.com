@@ -290,20 +290,6 @@ nav.expanded #navigation {
   transition: transform .2s, filter .2s;
 }
 
-/* blurring content */
-.blurred {
-  -webkit-filter: blur(5px);
-  -moz-filter: blur(5px);
-  -o-filter: blur(5px);
-  filter: blur(5px);
-  -webkit-transition: -webkit-transform .5s, -webkit-filter .5s;
-  -moz-transition: -moz-transform .5s, -moz-filter .5s;
-  -o-transition: -o-transform .5s, -o-filter .5s;
-  transition: transform .5s, filter .5s;
-}
-
-
-
 /* === FOOTER === */
 /* ============== */
 
