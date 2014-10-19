@@ -70,7 +70,6 @@
     function showNav() {
       $('nav').removeClass('invisible').addClass('expanded');
       $('#container').addClass('blurred');
-      /*window.setTimeout(function(){$('body').addClass('no_scroll');}, 200); // Firefox hack. Hides scrollbar as soon as menu animation is done*/
       $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
     }
 
