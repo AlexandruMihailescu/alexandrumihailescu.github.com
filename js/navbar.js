@@ -72,6 +72,7 @@
       $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
       //disable_scroll();
       disabler.disable_scrolling();
+      $('body').attr('overflow', 'hidden');
     }
 
     // hides the navigation’s popover
@@ -83,6 +84,7 @@
       $('.icon').blur(); // deselect icon when navigation is hidden
       //enable_scroll();
       disabler.enable_scrolling();
+      $('body').attr('overflow', 'auto');
     }
 
     // keyboard shortcuts
