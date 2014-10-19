@@ -46,7 +46,7 @@ body.no_scroll {
 
   body.no_scroll .expanded {
     /*padding-right: 7px;*/
-    background: rgba(255,255,255,.98); /* because FF no blur, reduce bg transparency */
+    background: rgba(0,0,0,.95); /* because FF no blur, reduce bg transparency */
   }
 }
 
@@ -129,7 +129,7 @@ nav {
 
 /* on navigation hover add slight white bg */
 nav:hover {
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.95);
 }
 
 /* limits width of menu to site width */
@@ -183,7 +183,7 @@ nav.expanded {
   height: 100%;
   position: fixed;
   cursor: default;
-  background: rgba(0,0,0,.9);
+  background: rgba(0,0,0,.95);
 }
 
 /* positions navigation content */
