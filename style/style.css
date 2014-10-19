@@ -129,7 +129,7 @@ nav {
 
 /* on navigation hover add slight white bg */
 nav:hover {
-  background: rgba(15,31,71,.9);
+  background: rgba(0,0,0,.9);
 }
 
 /* limits width of menu to site width */
@@ -165,7 +165,7 @@ nav.invisible {
 /* when shown & detached position is fixed */
 nav.detached {
   position: fixed;
-  background: rgba(15,31,71,.9);
+  background: rgba(0,0,0,.9);
   -webkit-transition: -webkit-transform .3s, height .3s, background .4s, opacity .3s;
   -moz-transition: -moz-transform .3s, height .3s, background .4s, opacity .3s;
   -o-transition: -o-transform .3s, height .3s, background .4s, opacity .3s;
@@ -183,7 +183,7 @@ nav.expanded {
   height: 100%;
   position: fixed;
   cursor: default;
-  background: rgba(15,31,71,.9);
+  background: rgba(0,0,0,.9);
 }
 
 /* positions navigation content */
