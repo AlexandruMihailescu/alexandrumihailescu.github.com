@@ -64,12 +64,17 @@ UserScrollDisabler.prototype = {
     t.$document.on("keydown.UserScrollDisabler", function(event) {
       t._handleKeydown.call(t, event);
     });
+    t.$document.ontouchmove = function(e){ 
+        e.preventDefault(); 
+   }
   },
 
   enable_scrolling : function() {
     var t = this;
     t.$window.off(".UserScrollDisabler");
     t.$document.off(".UserScrollDisabler");
+    t.$document.ontouchmove = function(e){ 
+     return true; }
   },
 
   _handleKeydown : function(event) {
