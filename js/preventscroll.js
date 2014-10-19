@@ -28,11 +28,13 @@ function disable_scroll() {
   }
   window.onmousewheel = document.onmousewheel = wheel;
   document.onkeydown = keydown;
+  $('body').bind('touchmove', function(e){e.preventDefault()});
 }
 
 function enable_scroll() {
     if (window.removeEventListener) {
         window.removeEventListener('DOMMouseScroll', wheel, false);
     }
-    window.onmousewheel = document.onmousewheel = document.onkeydown = null;  
+    window.onmousewheel = document.onmousewheel = document.onkeydown = null;
+    $('body').unbind('touchmove');
 }
