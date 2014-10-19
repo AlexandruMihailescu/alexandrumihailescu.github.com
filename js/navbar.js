@@ -69,8 +69,8 @@
     // shows the navigation’s popover
     function showNav() {
       $('nav').removeClass('invisible').addClass('expanded');
-      $('#container').addClass('blurred');
       $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
+      disable_scroll();
     }
 
     // hides the navigation’s popover
@@ -80,6 +80,7 @@
       $('nav').removeClass('expanded');
       $('#navigation a').attr('tabindex', '-1'); // links inside hidden navigation should not be TAB selectable
       $('.icon').blur(); // deselect icon when navigation is hidden
+      enable_scroll();
     }
 
     // keyboard shortcuts
