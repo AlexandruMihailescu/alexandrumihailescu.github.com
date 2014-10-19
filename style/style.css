@@ -274,7 +274,7 @@ nav.expanded #navigation {
 
 /* changes icon to an “X” */
 .expanded .icon:before {
-  content: 'CLOSE MENU X';
+  content: 'BACK';
 }
 
 
