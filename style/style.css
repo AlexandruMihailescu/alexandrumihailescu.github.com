@@ -225,5 +225,6 @@ nav.expanded #navigation {
     }
     #navLastname:before {
         content: '\A';
+        white-space: pre;
     }
 }
