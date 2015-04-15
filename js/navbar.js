@@ -80,7 +80,7 @@
       $('body').removeClass('noScroll');
       $('#container').removeClass('blurred');
       window.setTimeout(function(){$('body').removeClass();}, 10); // allow animations to start before removing class (Firefox)
-      $('nav'.scrollTop('0px'));
+      $('nav').scrollTop('0px');
       $('nav').removeClass('expanded');
       $('#navigation a').attr('tabindex', '-1'); // links inside hidden navigation should not be TAB selectable
       $('.icon').blur(); // deselect icon when navigation is hidden
