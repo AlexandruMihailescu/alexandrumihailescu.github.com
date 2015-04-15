@@ -160,9 +160,10 @@ nav.expanded {
   -o-transform: translate(0,-700px);
   transform: translate(0,-700px);
   opacity: 0;
-  padding-top: 2vh;
-  padding-bottom: 2vh;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
   margin: 0 0;
+  font-size: 4vh;
   text-align: center;
   -webkit-transition: -webkit-transform .15s, opacity .7s;
   -moz-transition: -moz-transform .15s, opacity .7s;
