@@ -209,15 +209,12 @@ nav.expanded #navigation {
   transition: transform .2s, filter .2s;
 }
 
-@media (max-aspect-ratio: 95/100)
+@media (max-aspect-ratio: 94/100)
 {
     body {
         padding-top: 20vh;
     }
     nav {
         height: 19vh;
-    }
-    #navFirstname{
-      content: "Alexandru\A";
     }
 }
