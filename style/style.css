@@ -217,12 +217,6 @@ nav.expanded #navigation {
     nav {
         height: 19vh;
     }
-    #navFirstname{
-        display: inline;
-    }
-    #navLastname{
-        display: inline;
-    }
     #navLastname:before {
         content: '\A';
         white-space: pre;
