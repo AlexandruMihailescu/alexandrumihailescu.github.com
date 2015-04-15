@@ -205,11 +205,8 @@ nav.expanded #navigation {
   -o-transform: translate(0,0);
   transform: translate(0,0);
   opacity: 1;
+  vertical-align: central;
 }
-
-
-/* === MENU NAVIGATION CONTENT === */
-/* =============================== */
 
 /* adds vertical spacing between menu links */
 #navigation ul li {
@@ -227,7 +224,7 @@ nav.expanded #navigation {
 /* makes link font bigger */
 #navigation ul a {
   font-family: 'Century Gothic';
-  font-size: 1.2em;
+  font-size: 3em;
   padding: 0 15%;
 }
 
@@ -266,7 +263,7 @@ nav.expanded #navigation {
   color: #ADC2EB;
 }
 
-/* changes icon to an “X” */
+/* changes icon to “BACK” */
 .expanded .icon:before {
   content: 'BACK';
 }
