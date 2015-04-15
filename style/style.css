@@ -217,8 +217,10 @@ nav.expanded #navigation {
     nav {
         height: 19vh;
     }
-    #navLastname:before {
+    #navLastname{
         display: inline;
+    }
+    #navLastname:before {
         content: '\A';
     }
 }
