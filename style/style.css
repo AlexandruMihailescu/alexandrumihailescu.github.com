@@ -182,7 +182,7 @@ nav.expanded #navigation {
 
 /* adds vertical spacing between menu links */
 #navigation ul li {
-  padding: 1em 0;
+  padding: 1vh 0;
 }
 
 /* subheading span styling */
