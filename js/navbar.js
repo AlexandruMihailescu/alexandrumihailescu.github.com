@@ -68,6 +68,7 @@
 
     // shows the navigation’s popover
     function showNav() {
+      $('body').addClass('noScroll');
       $('nav').removeClass('invisible').addClass('expanded');
       $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
       //disable_scroll();
@@ -76,6 +77,7 @@
 
     // hides the navigation’s popover
     function hideNav() {
+      $('body').removeClass('noScroll');
       $('#container').removeClass('blurred');
       window.setTimeout(function(){$('body').removeClass();}, 10); // allow animations to start before removing class (Firefox)
       $('nav').removeClass('expanded');
