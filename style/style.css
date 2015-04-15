@@ -109,6 +109,7 @@ nav:hover {
 
 /* name of site in main menu (not user selectable) */
 .site-width>a {
+  display: inline;
   font-weight: bold;
   color: #ADC2EB;
   -webkit-user-select: none;
