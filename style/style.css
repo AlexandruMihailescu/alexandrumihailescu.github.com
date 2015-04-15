@@ -153,6 +153,7 @@ nav.expanded {
   position: fixed;
   cursor: default;
   background: rgba(0,0,0,.95);
+  overflow: scroll;
 }
 
 /* positions navigation content */
@@ -171,7 +172,6 @@ nav.expanded {
   -moz-transition: -moz-transform .15s, opacity .7s;
   -o-transition: -o-transform .15s, opacity .7s;
   transition: transform .15s, opacity .7s;
-  overflow: scroll;
 }
 
 /* shows navigation */
