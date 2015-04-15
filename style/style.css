@@ -195,7 +195,6 @@ nav.expanded #navigation {
 #navigation ul a {
   font-family: 'Century Gothic';
   font-size: 7.5vh;
-  padding: 0 15%;
 }
 
 /* adds transition to the content */
