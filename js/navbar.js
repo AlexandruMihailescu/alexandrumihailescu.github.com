@@ -47,13 +47,13 @@
     })
 
     // shows/hides navigation’s popover if class "expanded"
-    $('nav').on('click touchstart', function(event) {
+    $('nav').on('click touchend', function(event) {
       showHideNav();
       event.preventDefault();
     })
 
     // clicking anywhere inside navigation or heading won’t close navigation’s popover
-    $('#navigation').on('click touchstart', function(event){
+    $('#navigation').on('click touchend', function(event){
         event.stopPropagation();
     })
 
