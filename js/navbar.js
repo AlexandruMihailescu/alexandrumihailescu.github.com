@@ -69,6 +69,7 @@
     // shows the navigation’s popover
     function showNav() {
       $('body').addClass('noScroll');
+      $('nav').scrollTop=0;
       $('nav').removeClass('invisible').addClass('expanded');
       $('#navigation a').attr('tabindex', ''); // links inside navigation should be TAB selectable
       //disable_scroll();
