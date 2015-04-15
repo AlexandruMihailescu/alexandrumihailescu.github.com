@@ -217,8 +217,7 @@ nav.expanded #navigation {
     nav {
         height: 19vh;
     }
-    #navFirstname:after {
-        content: '\A';
-        white-space: pre;
+    #navFirstname{
+      display: block;
     }
 }
