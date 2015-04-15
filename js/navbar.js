@@ -79,10 +79,10 @@
     // hides the navigation’s popover
     function hideNav() {
       $('body').removeClass('noScroll');
+      $('nav').scrollTop=0;
       $('#container').removeClass('blurred');
       window.setTimeout(function(){$('body').removeClass();}, 10); // allow animations to start before removing class (Firefox)
       $('nav').removeClass('expanded');
-      $('nav').scrollTop=-30;
       $('#navigation a').attr('tabindex', '-1'); // links inside hidden navigation should not be TAB selectable
       $('.icon').blur(); // deselect icon when navigation is hidden
       //enable_scroll();
