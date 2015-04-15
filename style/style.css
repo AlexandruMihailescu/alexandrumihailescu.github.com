@@ -207,7 +207,7 @@ nav.expanded #navigation {
 /* makes link font bigger */
 #navigation ul a {
   font-family: 'Century Gothic';
-  font-size: 10vw;
+  font-size: 5vh;
   padding: 0 15%;
 }
 
