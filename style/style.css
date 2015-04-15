@@ -209,7 +209,7 @@ nav.expanded #navigation {
   transition: transform .2s, filter .2s;
 }
 
-@media (max-aspect-ratio: 262/300)
+@media (max-aspect-ratio: 437/500)
 {
     body {
         padding-top: 20vh;
