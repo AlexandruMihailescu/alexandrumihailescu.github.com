@@ -219,6 +219,6 @@ nav.expanded #navigation {
     }
     #navFirstname:after {
         content: '\A';
-        white-space: normal;
+        white-space: pre;
     }
 }
