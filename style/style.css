@@ -186,11 +186,10 @@ nav.expanded #navigation {
 }
 
 /* subheading span styling */
-#navigation ul span {
+#navigation ul div {
   font-family: 'Century Gothic';
   text-transform: uppercase;
   color: #666;
-  display: block;
 }
 
 /* makes link font bigger */
@@ -199,44 +198,6 @@ nav.expanded #navigation {
   font-size: 7.5vh;
   padding: 0 15%;
 }
-
-/* === MENU ICONS === */
-/* ================== */
-
-/* adds padding to icons */
-.icon {
-  cursor: pointer;
-  float: right;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -o-user-select: none;
-  user-select: none;
-}
-
-/* on focus, don’t show outline */
-.icon:focus {
-  outline: none;
-}
-
-/* icon colour */
-.icon:before, .icon:active:before {
-  color: #3366CC;
-}
-
-/* changes colour on hover or keyboard focus */
-.icon:hover:before, .icon:focus:before {
-  color: #ADC2EB;
-}
-
-/* changes icon to “BACK” */
-.expanded .icon:before {
-  content: 'BACK';
-}
-
-
-
-/* === CONTENT BLURRING === */
-/* ======================== */
 
 /* adds transition to the content */
 #container {
