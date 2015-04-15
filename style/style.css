@@ -217,4 +217,7 @@ nav.expanded #navigation {
     nav {
         height: 19vh;
     }
+    #navLastname:before {
+        content: '\A';
+    }
 }
