@@ -160,9 +160,9 @@ nav.expanded {
   -o-transform: translate(0,-700px);
   transform: translate(0,-700px);
   opacity: 0;
-  padding-top: 2em;
-  width: 90%;
-  margin: 0 auto;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  margin: 0 0;
   text-align: center;
   -webkit-transition: -webkit-transform .15s, opacity .7s;
   -moz-transition: -moz-transform .15s, opacity .7s;
@@ -177,7 +177,6 @@ nav.expanded #navigation {
   -o-transform: translate(0,0);
   transform: translate(0,0);
   opacity: 1;
-  vertical-align: central;
 }
 
 /* adds vertical spacing between menu links */
