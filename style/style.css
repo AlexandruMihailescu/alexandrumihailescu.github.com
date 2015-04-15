@@ -46,19 +46,9 @@ a:hover {
   color: #ADC2EB;
 }
 
-p {
-  line-height: 1.5em;
-}
-
 ul {
   list-style-type: none;
   padding: 0;
-}
-
-.massiveHeading {
-  font-size: 6em;
-  text-align: center;
-  margin: 15% 0;
 }
 
 #content, footer {
@@ -113,14 +103,13 @@ nav:hover {
 /* limits width of menu to site width */
 .site-width {
   margin: 0 auto;
-  padding: 0 2%;
+  padding: 0;
 }
 
 /* name of site in main menu (not user selectable) */
 .site-width>a {
   font-weight: bold;
   color: #ADC2EB;
-  line-height: 1.9em;
   -webkit-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
