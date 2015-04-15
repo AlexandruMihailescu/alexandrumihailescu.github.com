@@ -12,6 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #ecf0f1;
   padding-top: 10vh;
+  min-width: 480px;
 }
 
 /* when navigation is shown, don’t allow scrolling of content */
