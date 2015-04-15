@@ -61,6 +61,8 @@
     function showHideNav() {
       if ($('nav').hasClass('expanded')) {
         hideNav();
+        showNav();
+        hideNav();
       } else {
         showNav();
       }
