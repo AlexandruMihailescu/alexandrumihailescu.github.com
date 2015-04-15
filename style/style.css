@@ -3,23 +3,6 @@
   src: local('Century Gothic'), url('fonts/GOTHIC.ttf') format('opentype');
 }
 
-[data-icon]:before {
-  font-family: 'Century Gothic';
-  content: attr(data-icon);
-  speak: none;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  font-size: 1.8em;
-  -webkit-transition: color .4s;
-  -moz-transition: color .4s;
-  -o-transition: color .4s;
-  transition: color .4s;
-}
-
 .innewtab {
   target-new: tab;
 }
@@ -224,7 +207,7 @@ nav.expanded #navigation {
 /* makes link font bigger */
 #navigation ul a {
   font-family: 'Century Gothic';
-  font-size: 3em;
+  font-size: 10vw;
   padding: 0 15%;
 }
 
@@ -233,19 +216,12 @@ nav.expanded #navigation {
 
 /* adds padding to icons */
 .icon {
-  padding: 2% 3%;
-  margin: -2% -3%; /* center icon in vertical middle of top menu */
   cursor: pointer;
   float: right;
   -webkit-user-select: none;
   -moz-user-select: none;
   -o-user-select: none;
   user-select: none;
-}
-
-/* hides extra text of icon (accessibility) */
-.icon span {
-  display: none;
 }
 
 /* on focus, don’t show outline */
