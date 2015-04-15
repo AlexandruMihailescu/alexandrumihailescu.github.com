@@ -109,7 +109,6 @@ nav:hover {
 
 /* name of site in main menu (not user selectable) */
 .site-width>a {
-  display: inline;
   font-weight: bold;
   color: #ADC2EB;
   -webkit-user-select: none;
@@ -219,6 +218,7 @@ nav.expanded #navigation {
         height: 19vh;
     }
     #navLastname:before {
+        display: inline;
         content: '\A';
     }
 }
