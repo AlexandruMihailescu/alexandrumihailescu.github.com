@@ -47,7 +47,7 @@
     })
 
     // shows/hides navigation’s popover if class "expanded"
-    $('nav').on('click touch', function(event) {
+    $('nav').on('click touchstart', function(event) {
       showHideNav();
       event.preventDefault();
     })
