@@ -208,3 +208,13 @@ nav.expanded #navigation {
   -o-transition: -o-transform .2s, filter .2s;
   transition: transform .2s, filter .2s;
 }
+
+@media (max-aspect-ratio: 1)
+{
+    body {
+        padding-top: 20vh;
+    }
+    nav {
+        height: 19vh;
+    }
+}
