@@ -218,6 +218,6 @@ nav.expanded #navigation {
         height: 19vh;
     }
     #navFirstname{
-      display: block;
+      content: "Alexandru\A";
     }
 }
