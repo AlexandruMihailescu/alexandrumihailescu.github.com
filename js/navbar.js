@@ -61,7 +61,6 @@
     function showHideNav() {
       if ($('nav').hasClass('expanded')) {
         hideNav();
-        $('nav').scrollTop=0;
       } else {
         showNav();
       }
@@ -80,6 +79,7 @@
     // hides the navigation’s popover
     function hideNav() {
       $('body').removeClass('noScroll');
+      $('nav').scrollTop=0;
       $('#container').removeClass('blurred');
       window.setTimeout(function(){$('body').removeClass();}, 10); // allow animations to start before removing class (Firefox)
       $('nav').removeClass('expanded');
