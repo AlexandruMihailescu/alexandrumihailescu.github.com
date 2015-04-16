@@ -191,12 +191,14 @@ nav.expanded #navigation {
   font-family: 'Century Gothic';
   text-transform: uppercase;
   color: #666;
+  width: fit-content;
 }
 
 /* makes link font bigger */
 #navigation ul a {
   font-family: 'Century Gothic';
   font-size: 7vh;
+  width: fit-content;
 }
 
 /* adds transition to the content */
