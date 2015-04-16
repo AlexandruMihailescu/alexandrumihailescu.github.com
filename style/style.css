@@ -191,7 +191,7 @@ nav.expanded #navigation {
   font-family: 'Century Gothic';
   text-transform: uppercase;
   color: #666;
-  display: block;
+  display: inline-block ;
   width: min-content;
 }
 
@@ -199,7 +199,7 @@ nav.expanded #navigation {
 #navigation ul a {
   font-family: 'Century Gothic';
   font-size: 7vh;
-  display: block;
+  display: inline-block ;
   width: min-content;
 }
 
