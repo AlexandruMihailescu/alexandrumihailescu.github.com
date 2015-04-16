@@ -53,7 +53,7 @@
     })
 
     // clicking anywhere inside navigation or heading won’t close navigation’s popover
-    $('#navigation a').on('click touchend', function(event){
+    $('#navigation ul span a').on('click touchend', function(event){
         event.stopPropagation();
     })
 
