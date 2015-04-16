@@ -84,21 +84,12 @@
       $('nav').scrollTop=0;
       $('nav').removeClass('expanded');
       $('#navigation a').attr('tabindex', '-1'); // links inside hidden navigation should not be TAB selectable
-      $('.icon').blur(); // deselect icon when navigation is hidden
       //enable_scroll();
       disabler.enable_scrolling();
     }
 
     // keyboard shortcuts
     $('body').keydown(function(e) {
-      // menu accessible via TAB as well
-      if ($("nav .icon").is(":focus")) {
-        // if ENTER/SPACE show/hide menu
-        if (e.keyCode === 13 || e.keyCode === 32) {
-          showHideNav();
-          e.preventDefault();
-        }
-      }
 
       // if ESC show/hide menu
       if (e.keyCode === 27 || e.keyCode === 77) {
