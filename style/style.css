@@ -198,7 +198,7 @@ nav.expanded #navigation {
 /* makes link font bigger */
 #navigation ul a {
   font-family: 'Century Gothic';
-  font-size: 7.5vh;
+  font-size: 7vh;
 }
 
 /* adds transition to the content */
