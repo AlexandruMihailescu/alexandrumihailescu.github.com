@@ -152,8 +152,6 @@ nav.expanded {
   position: fixed;
   cursor: default;
   background: rgba(0,0,0,.95);
-  overflow-y: scroll;
-  overflow: auto;
 }
 
 /* positions navigation content */
