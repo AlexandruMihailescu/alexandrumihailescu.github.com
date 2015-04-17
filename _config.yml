@@ -3,4 +3,4 @@ description: "Alexandru Mihăilescu"
 url: "http://www.alexandrumihailescu.ro"
 #baseurl: "/alexandrumihailescu.ro"
 markdown: rdiscount
-permalink: /post/:title/
+permalink: /blog/:title/
