@@ -11,8 +11,8 @@ permalink: /blog/
         <a href="{{ post.url }}">
           <h1>{{ post.title }}</h1>
           <span>
-  {% assign m = page.date | date: "%-m" %}
-  {{ page.date | date: "%-d" }}
+  {% assign m = post.date | date: "%-m" %}
+  {{ post.date | date: "%-d" }}
   {% case m %}
     {% when '1' %}Ianuarie
     {% when '2' %}Februarie
@@ -27,7 +27,7 @@ permalink: /blog/
     {% when '11' %}Noiembrie
     {% when '12' %}Decembrie
   {% endcase %}
-  {{ page.date | date: "%Y" }}</span> |
+  {{ post.date | date: "%Y" }}</span> |
           <span>Summary: {{post.summary}}</span>
         </a>
       </section>
