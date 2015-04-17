@@ -1,5 +1,5 @@
 name: "Alexandru Mihăilescu"
 description: "Alexandru Mihăilescu"
-url: "http://www.alexandrumihailescu.com"
-# baseurl: "/alexandrumihailescu.ro"
+url: "http://www.alexandrumihailescu.ro"
+#baseurl: "/alexandrumihailescu.ro"
 markdown: rdiscount
