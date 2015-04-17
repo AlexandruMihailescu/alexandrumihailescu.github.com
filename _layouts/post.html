@@ -1,4 +1,12 @@
 {% include header.html %}
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&version=v2.3";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
 <h1>{{ page.title }}</h1>
 <div class="byline-name" style="height: 0; display: inline;">Alexandru Mihăilescu</div>
 <div class="dateline">
@@ -27,9 +35,6 @@
     <a href="http://twitter.com/share?url={{ site.url }}{{ page.url }}&text={{ page.title }}:&via=AlexandruMih_" data-icon="t" class="icon twitter_button" title="Postează articolul pe Twitter" target="_blank">Share on Twitter</a>
   </div>
 
-akdjbaskdbaskdasbdsabda bsabdm,asbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dm
-asbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dma
-asbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dma
-asbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dmaasbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dmaasbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dmaasbdmas bdams basm basmdbasm dabmdb asmdbas dnbasmd bamdasb dmasbmd asbd masbd masdb amsb dasmd basmnd basm dbasmn dbasmd basbasmdb amsb dasn basmnd bamsd bmasnbd amd basmndbasmdb masnb dasmdb asmndbasm bdmansdbmasb mnasbasnbdmasbd amsdbasmnd basmn dbamd basmd basmn dbmadbmasb mdbasmd bsambd asm dbamsdb msad basmnbdmsan amsbdamsn bdasmnd basmnb dmasnbd masndb amsndb masbdmasbdmasb dmasbd mansb dmnasbdmasnb dmasnbd amsnbd masbd masbd masd bamnd basmbd mnab dmaa
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="10" data-colorscheme="light"></div>
 
 {% include footer.html %}
