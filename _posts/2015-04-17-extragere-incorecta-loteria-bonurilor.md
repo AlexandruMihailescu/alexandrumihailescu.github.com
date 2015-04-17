@@ -8,3 +8,4 @@ summary: Scurtă explicație a incorectitudinii primei extrageri.
 ---
 
 Nescris
+{{site.url}}{{page.url}}
