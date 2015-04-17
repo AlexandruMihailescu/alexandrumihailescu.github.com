@@ -221,3 +221,11 @@ nav.expanded #navigation {
         height: 19vh;
     }
 }
+
+
+.fb-comments span {
+    width: 100% !important;
+}
+.fb-comments iframe {
+    width: 100% !important;
+}
