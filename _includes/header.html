@@ -6,7 +6,10 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, minimal-ui" />
     <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/style/style.css" />
-    <title>{{ page.title }}</title>
+    <title>>{{ page.title }}{% if page.layout == 'default' %} - {{ site.name }}{% endif %}</title>
+    <meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
+    <link rel="author" href="https://twitter.com/AlexandruMih_" />
+
   </head>
   <body>
     <nav>
@@ -25,7 +28,7 @@
             <span>
               <a href="#"
                  class="about"
-                 title="About me">
+                 title="Despre mine">
                 Start
               </a>
             </span>
@@ -37,14 +40,14 @@
             <span>
               <a href="#"
                  class="portofolio"
-                 title="Projects">
+                 title="Vezi proiectele mele">
                 Proiecte
               </a>
             </span>
             <span>
               <a href="#"
                  class="blog"
-                 title="Blog">
+                 title="Citește-mi Blogul">
                 Blog
               </a>
             </span>
@@ -56,7 +59,7 @@
             <span>
               <a href="mailto:alexandru.mihailescu_social@outlook.com"
                  class="contact"
-                 title="Mail"
+                 title="Trimite-mi un e-mail"
                  target="_blank">
                 Mail
               </a>
@@ -64,7 +67,7 @@
             <span>
             <a href="https://www.facebook.com/alexandru.mihailescu.3"
                class="contact innewtab"
-               title="Facebook"
+               title="Găsește-mă pe Facebook"
                target="_blank">
               Facebook
             </a>
@@ -72,7 +75,7 @@
             <span>
             <a href="https://twitter.com/AlexandruMih_"
                class="contact innewtab"
-               title="Twitter"
+               title="Găsește-mă pe Twitter"
                target="_blank">
               Twitter
             </a>
