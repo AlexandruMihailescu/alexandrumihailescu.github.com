@@ -6,7 +6,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, minimal-ui" />
     <link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/style/navstyle.css" />
-    <title>{{ page.title }}{% if page.layout == 'default' %} - {{ site.name }}{% endif %}</title>
+    <title>{{ page.title }}{% if page.layout != 'default' %} - {{ site.name }}{% endif %}</title>
     <meta name="description" content="{% if page.layout == 'default' %}{{ site.description }}{% else %}{% if page.cover %}{{ content | split:'<!--more-->' | first | strip_html }}{% endif %}{% endif %}" />
     <link rel="author" href="https://twitter.com/AlexandruMih_" />
 
