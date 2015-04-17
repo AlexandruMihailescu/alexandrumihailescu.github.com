@@ -10,6 +10,25 @@ permalink: /blog/
       <section>
         <a href="{{ post.url }}">
           <h1>{{ post.title }}</h1>
+          <span>
+  {% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d" }}
+  {% case m %}
+    {% when '1' %}Ianuarie
+    {% when '2' %}Februarie
+    {% when '3' %}Martie
+    {% when '4' %}Aprilie
+    {% when '5' %}Mai
+    {% when '6' %}Iunie
+    {% when '7' %}Iulie
+    {% when '8' %}August
+    {% when '9' %}Septembrie
+    {% when '10' %}Octombrie
+    {% when '11' %}Noiembrie
+    {% when '12' %}Decembrie
+  {% endcase %}
+  {{ page.date | date: "%Y" }}</span> |
+          <span>Summary: {{post.summary}}</span>
         </a>
       </section>
     {% endif %}
