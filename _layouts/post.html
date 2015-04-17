@@ -1,7 +1,25 @@
 {% include header.html %}
-<div class="dateline">{{ page.date | date: "%-d %B %Y" }}</div>
-<div class="byline-name" style="height: 0;">Alexandru Mihăilescu</div>
 <h1>{{ page.title }}</h1>
+<div class="byline-name" style="height: 0; display: inline;">Alexandru Mihăilescu</div>
+<div class="dateline">
+  {% assign m = page.date | date: "%-m" %}
+  {{ page.date | date: "%-d" }}
+  {% case m %}
+    {% when '1' %}Ianuarie
+    {% when '2' %}Februarie
+    {% when '3' %}Martie
+    {% when '4' %}Aprilie
+    {% when '5' %}Mai
+    {% when '6' %}Iunie
+    {% when '7' %}Iulie
+    {% when '8' %}August
+    {% when '9' %}Septembrie
+    {% when '10' %}Octombrie
+    {% when '11' %}Noiembrie
+    {% when '12' %}Decembrie
+  {% endcase %}
+  {{ page.date | date: "%Y" }}
+</div>
 
   <div id="content">
     {{ content }}
