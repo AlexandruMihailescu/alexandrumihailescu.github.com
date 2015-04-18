@@ -42,9 +42,7 @@
     {{ content }}
   </div>
 
-<div id="id_name">
-       <fb:comments href="{{ site.url }}{{ page.url }}" num_posts="10" width="100%" style="position:relative;display:block;">
-       </fb:comments>
-</div>
+
+<div class="fb-comments" data-href="{{ site.url }}{{ page.url }}" data-numposts="5" data-colorscheme="light"></div>
 
 {% include footer.html %}
