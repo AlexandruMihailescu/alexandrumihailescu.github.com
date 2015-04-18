@@ -226,10 +226,4 @@ nav.expanded #navigation {
     }
 }
 
-
-.fb-comments span {
-    width: 100% !important;
-}
-.fb-comments iframe {
-    width: 100% !important;
-}
+.twitter-share-button[style] { vertical-align: text-bottom !important; }
