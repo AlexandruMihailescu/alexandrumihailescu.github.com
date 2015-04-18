@@ -11,6 +11,15 @@
     <meta name="copyright" content="© Alexandru Mihăilescu">
     <link rel="author" href="https://twitter.com/AlexandruMih_" />
 
+
+    <meta property="og:image" content="{{ site.url }}/images/{{page.cover}}" /> 
+    <meta property="og:title" content="{{ page.title }}" /> 
+    <meta property="og:description" content="{% if page.layout == 'default' %}{{ page.title }}{% else %}{{ page.summary }}{% endif %}" /> 
+    <meta property="og:url" content="{{ site.url }}{{ page.url }}" /> 
+    <meta property="og:site_name" content="Alexandru Mihăilescu" /> 
+    <meta property="og:type" content="blog" /> 
+
+
   </head>
   <body>
     <nav>
