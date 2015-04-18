@@ -212,13 +212,16 @@ nav.expanded #navigation {
   transition: transform .2s, filter .2s;
 }
 
-@media (max-aspect-ratio: 1235/1400)
+@media (max-aspect-ratio: 90/100)
 {
     body {
         padding-top: 20vh;
     }
     nav {
         height: 19vh;
+    }
+    #headerNameSeparator{
+      content: "\A";
     }
 }
 
