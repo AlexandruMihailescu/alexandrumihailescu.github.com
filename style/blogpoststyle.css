@@ -1,0 +1,15 @@
+#cover {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#cover>figure{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+#cover>figure>img{
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}

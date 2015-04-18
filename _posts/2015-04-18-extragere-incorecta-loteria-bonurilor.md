@@ -2,9 +2,9 @@
 title: Extragere incorectă loteria bonurilor fiscale
 layout: post
 cover: blog/covers/loto000.jpg
+background-colour: #135613
 summary: Scurtă explicație a incorectitudinii primei extrageri.
 ---
-![godaddy dns editor]({{ site.url }}/images/{{page.cover}})
 Nescris
 {{site.url}}{{page.url}}
 Odata cu aprobarea loteriei bonurilor, Ministerul Finantelor a lansat si un material informativ care contine toate informatiile despre acest proiect de lege. Astfel, sub forma unor intrebari si raspunsuri sunt enuntate principalele caracteristici ale loteriei bonurilor.
