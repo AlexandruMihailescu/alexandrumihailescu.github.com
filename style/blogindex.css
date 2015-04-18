@@ -1,8 +1,0 @@
-a:link, a:visited{
-  color: #3366CC;
-  text-decoration: none;
-  -moz-transition: all .3s;
-  -webkit-transition: all .3s;
-  -o-transition: all .3s;
-  transition: all .3s;
-}
