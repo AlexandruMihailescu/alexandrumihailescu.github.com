@@ -222,6 +222,7 @@ nav.expanded #navigation {
     }
     #lastName:before{
       content: "\A";
+      white-space:pre;
     }
 }
 
