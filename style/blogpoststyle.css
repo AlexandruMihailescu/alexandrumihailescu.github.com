@@ -2,13 +2,14 @@
     width: 100%;
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 #cover>img{
-    text-align: center;
     max-width: 100%;
     margin: 0;
     padding: 0;
 }
 #cover>figure{
+    visibility: hidden;
     height: 0;
 }
