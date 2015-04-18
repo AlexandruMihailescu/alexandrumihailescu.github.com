@@ -220,7 +220,7 @@ nav.expanded #navigation {
     nav {
         height: 19vh;
     }
-    #headerNameSeparator{
+    #headerNameSeparator:before{
       content: "\A";
     }
 }
