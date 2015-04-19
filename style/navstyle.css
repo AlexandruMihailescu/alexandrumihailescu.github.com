@@ -234,4 +234,5 @@ nav.expanded #navigation {
 #content{
     margin-left: 5vw;
     margin-right: 5vw;
+    text-align: justify;
 }
