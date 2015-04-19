@@ -6,7 +6,6 @@ backgroundcolour: "#135613"
 summary: Scurtă explicație a incorectitudinii primei extrageri.
 ---
 Nescris
-{{site.url}}{{page.url}}
 Odata cu aprobarea loteriei bonurilor, Ministerul Finantelor a lansat si un material informativ care contine toate informatiile despre acest proiect de lege. Astfel, sub forma unor intrebari si raspunsuri sunt enuntate principalele caracteristici ale loteriei bonurilor.
 
 In ceea ce priveste subiectul conditiilor de participare aflam urmatoarele lucruri. Participarea la Loteria Bonurilor nu implica vreun cost, bonurile fiscale trebuiesc pastrate dupa achizitionarea de bunuri sau servicii. In cazul in care sunteti in posesia unui bon fiscal castigator puteti sa mergeti sa il revendicati. Bonurile fiscale nu trebuiesc inregistrate sau depuse in vreo urma pentru a putea participa la extragere. De asemenea, nu se trimit prin posta si nu se inregistreaza in cadrul Loteriei Romane.
