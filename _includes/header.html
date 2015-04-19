@@ -22,10 +22,10 @@
 
   </head>
   <body>
-    {% if page.backgroundcolour!=nil %}
-    <nav style="background: {{page.backgroundcolour}};">
-    {%else}
+    {% if page.backgroundcolour == nil %}
     <nav>
+    {%else}
+    <nav style="background: {{page.backgroundcolour}};">
     {% endif %}
       <div class="site-width" title="vezi meniu legături">
         <a>
