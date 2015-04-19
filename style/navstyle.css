@@ -60,6 +60,7 @@ ul {
   background: rgba(15,31,71,1);
   z-index: 0;
   height: 9vh;
+  width: 100vw;
   top: 0vh;
   right: 0vh;
   -webkit-transform: translate(0,0);
@@ -75,14 +76,13 @@ ul {
 }
 
 nav {
-    visibility: hidden;
   color: White;
   font-family: 'Century Gothic';
   background: rgba(15,31,71,1);
   position: absolute;
   top: 0vh;
   right: 0vw;
-  width: 100%;
+  width: 100vw;
   height: 9vh;
   font-size: 7vh;
   padding-top: 1vh;
