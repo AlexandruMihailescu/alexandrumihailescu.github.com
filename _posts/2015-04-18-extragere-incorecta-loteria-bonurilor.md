@@ -2,7 +2,7 @@
 title: Extragere incorectă loteria bonurilor fiscale
 layout: post
 cover: blog/covers/loto000.jpg
-background-colour: #135613
+backgroundcolour: #135613
 summary: Scurtă explicație a incorectitudinii primei extrageri.
 ---
 Nescris
