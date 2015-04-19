@@ -22,7 +22,11 @@
 
   </head>
   <body>
+    {% if page.backgroundcolour %}
+    <nav style="background: {{page.backgroundcolour}};">
+    {%else}
     <nav>
+    {% endif %}
       <div class="site-width" title="vezi meniu legături">
         <a>
             ALEXANDRU <span id="lastName">MIHĂILESCU</span>
