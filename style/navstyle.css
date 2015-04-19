@@ -240,6 +240,7 @@ nav.expanded #navigation {
 
 #content{
     min-height: 81vh;
+    background-color: #f00;
 }
 
 #disqus_button{
