@@ -55,9 +55,10 @@ ul {
   margin: 0 auto;
 }
 
-#falsenav{
+#falsenav {
   position: absolute;
   background: rgba(15,31,71,1);
+  z-index: 0;
   height: 9vh;
   top: 0vh;
   right: 0vh;
