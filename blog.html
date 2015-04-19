@@ -4,7 +4,7 @@ layout: default
 permalink: /blog/
 ---
 {% include social.html %}
-
+<link rel="stylesheet" type="text/css" media="all" href="{{ site.url }}/style/blogindexstyle.css" />
   {% for post in site.posts limit: 100 %}
 
     {% if post.designs == nil and published == nil %}
