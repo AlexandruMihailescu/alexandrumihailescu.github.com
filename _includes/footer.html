@@ -4,7 +4,9 @@
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   </div>
   <div id=disqus_button>LOAD COMMENTS</div>
-
+{% if page.layout==post %}
+</div>
+{% endif%}
   <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   <script src="{{ site.url }}/js/preventscroll.js"></script>
   <script src="{{ site.url }}/js/navbar.js"></script>
