@@ -238,6 +238,8 @@ nav.expanded #navigation {
 }
 
 #disqus_button{
+    position:relative;
+    bottom:0px;
     color: #ADC2EB;
     background-color: rgba(15,31,71,1);
     font-family: 'Century Gothic';
