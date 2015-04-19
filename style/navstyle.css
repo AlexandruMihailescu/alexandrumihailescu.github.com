@@ -256,6 +256,6 @@ nav.expanded #navigation {
     -moz-animation: firstFadeInAndDrop .5s;
     animation: firstFadeInAndDrop .5s;
 }
-disqus_button:hover {
+#disqus_button:hover {
   background: rgba(0,0,0,.95);
 }
