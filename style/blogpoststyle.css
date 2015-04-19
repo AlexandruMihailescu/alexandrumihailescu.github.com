@@ -21,6 +21,7 @@
 #cover>figure>figcaption{
     visibility: hidden;
     height: 0;
+    width: 0;
 }
 
 h1, .dateline{
