@@ -13,6 +13,9 @@
 #cover>figure{
     max-width: 100%;
 }
+#cover>figure>image{
+    max-width: 100%;
+}
 #cover>figure>figcaptio{
     visibility: hidden;
     height: 0;
