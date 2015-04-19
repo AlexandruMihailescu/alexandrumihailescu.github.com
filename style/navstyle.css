@@ -236,3 +236,10 @@ nav.expanded #navigation {
     margin-right: 5vw;
     text-align: justify;
 }
+
+#disqus_button{
+    color: #ADC2EB;
+    background-color: rgba(15,31,71,1);
+    font-family: 'Century Gothic';
+    font-size: 4vh;
+}
