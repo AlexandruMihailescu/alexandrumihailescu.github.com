@@ -248,7 +248,7 @@ nav.expanded #navigation {
 }
 
 #content{
-    min-height: 81vh;
+    min-height: 80vh;
 }
 
 #disqus_button{
@@ -287,7 +287,7 @@ nav.expanded #navigation {
         height: 18vh;
     }
     #content{
-        min-height: 71vh;
+        min-height: 70vh;
     }
     #lastName:before{
       content: "\A";
