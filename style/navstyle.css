@@ -230,3 +230,7 @@ nav.expanded #navigation {
 .socialButtons{
   text-align: center;
 }
+
+#content{
+    margin: auto;
+}
