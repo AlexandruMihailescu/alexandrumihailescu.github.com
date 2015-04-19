@@ -1,5 +1,8 @@
 {% capture lvl %}{{ page.url | append:'index.html' | split:'/' | size }}{% endcapture %} 
 {% capture relative %}{% for i in (3..lvl) %}../{% endfor %}{% endcapture %}
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+  <script src="{{ site.url }}/js/preventscroll.js"></script>
+  <script src="{{ site.url }}/js/navbar.js"></script>
     <div id=disqus_button>LOAD COMMENTS</div>
     <div id="disqus_thread"></div>
     <script type="text/javascript">
@@ -16,9 +19,6 @@
     </script>
     <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
   </div>
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-  <script src="{{ site.url }}/js/preventscroll.js"></script>
-  <script src="{{ site.url }}/js/navbar.js"></script>
   </body>
 </html>
 
