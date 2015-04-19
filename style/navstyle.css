@@ -55,12 +55,22 @@ ul {
   margin: 0 auto;
 }
 
-falsenav{
+.falsenav{
   position: absolute;
   background: rgba(15,31,71,1);
   height: 9vh;
   top: 0vh;
   right: 0vh;
+  -webkit-transform: translate(0,0);
+  -moz-transform: translate(0,0);
+  -o-transform: translate(0,0);
+  transform: translate(0,0);
+  -webkit-transition: -webkit-transform .4s, height .3s, background .4s;
+  -moz-transition: -moz-transform .4s, height .3s, background .4s;
+  transition: transform .4s, height .3s, background .4s;
+  -webkit-animation: firstFadeInAndDrop .5s;
+  -moz-animation: firstFadeInAndDrop .5s;
+  animation: firstFadeInAndDrop .5s;
 }
 
 nav {
