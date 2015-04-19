@@ -12,7 +12,7 @@ body {
   -webkit-font-smoothing: antialiased;
   background: #ecf0f1;
   margin: 0;
-  padding-top: 10vh;
+  padding-top: 11vh;
 }
 
 /* when navigation is shown, don’t allow scrolling of content */
@@ -64,7 +64,7 @@ ul {
   width: 100vw;
   height: 9vh;
   font-size: 7vh;
-  padding-top: 0vh;
+  padding-top: 1vh;
   z-index: 0;
   -webkit-transform: translate(0,0);
   -moz-transform: translate(0,0);
@@ -88,7 +88,7 @@ nav {
   width: 100vw;
   height: 9vh;
   font-size: 7vh;
-  padding-top: 10vh;
+  padding-top: 1vh;
   text-align: center;
   z-index: 1000;
   cursor: pointer;
@@ -281,10 +281,10 @@ nav.expanded #navigation {
         padding-top: 20vh;
     }
     nav {
-        height: 19vh;
+        height: 18vh;
     }
     #falsenav {
-        height: 19vh;
+        height: 18vh;
     }
     #content{
         min-height: 71vh;
