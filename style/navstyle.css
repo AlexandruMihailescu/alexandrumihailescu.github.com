@@ -231,10 +231,14 @@ nav.expanded #navigation {
   text-align: center;
 }
 
-#content{
+#post{
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: justify;
+}
+
+#content{
+    min-height: 80%;
 }
 
 #disqus_button{
@@ -243,7 +247,8 @@ nav.expanded #navigation {
     color: #ADC2EB;
     background-color: rgba(15,31,71,1);
     font-family: 'Century Gothic';
-    font-size: 4vh;
+    font-size: 7vh;
+    height: 9vh;
     text-align: center;
     cursor: pointer;
     overflow: hidden;
