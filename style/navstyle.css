@@ -237,23 +237,6 @@ nav.expanded #navigation {
   transition: transform .2s, filter .2s;
 }
 
-@media (max-aspect-ratio: 90/100)
-{
-    body {
-        padding-top: 20vh;
-    }
-    nav {
-        height: 19vh;
-    }
-    #falsenav {
-        height: 19vh;
-    }
-    #lastName:before{
-      content: "\A";
-      white-space:pre;
-    }
-}
-
 .socialButtons{
   text-align: center;
 }
@@ -290,4 +273,25 @@ nav.expanded #navigation {
 }
 #disqus_button:hover {
   background: rgba(0,0,0,.95);
+}
+
+
+@media (max-aspect-ratio: 90/100)
+{
+    body {
+        padding-top: 20vh;
+    }
+    nav {
+        height: 19vh;
+    }
+    #falsenav {
+        height: 19vh;
+    }
+    #content{
+        min-height: 71vh;
+    }
+    #lastName:before{
+      content: "\A";
+      white-space:pre;
+    }
 }
