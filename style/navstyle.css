@@ -75,6 +75,7 @@ ul {
 }
 
 nav {
+    visibility: hidden;
   color: White;
   font-family: 'Century Gothic';
   background: rgba(15,31,71,1);
