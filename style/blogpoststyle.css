@@ -19,6 +19,7 @@
     max-width: 100%;
 }
 #cover>figure>figcaption{
+    max-width: 100%;
     visibility: hidden;
     height: 0;
     width: 0;
@@ -26,4 +27,8 @@
 
 h1, .dateline{
     text-align: left;
+}
+
+#content{
+    max-width: 90%;
 }
