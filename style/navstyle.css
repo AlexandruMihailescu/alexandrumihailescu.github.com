@@ -64,7 +64,7 @@ ul {
   width: 100vw;
   height: 8vh;
   font-size: 7vh;
-  padding-top: 1vh;
+  padding-top: 0vh;
   z-index: 0;
   -webkit-transform: translate(0,0);
   -moz-transform: translate(0,0);
@@ -88,7 +88,7 @@ nav {
   width: 100vw;
   height: 8vh;
   font-size: 7vh;
-  padding-top: 1vh;
+  padding-top: 0vh;
   text-align: center;
   z-index: 1000;
   cursor: pointer;
