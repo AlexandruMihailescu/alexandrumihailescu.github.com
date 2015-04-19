@@ -235,6 +235,7 @@ nav.expanded #navigation {
     margin-left: 5vw;
     margin-right: 5vw;
     text-align: justify;
+    max-width: 90vw;
 }
 
 #content{
