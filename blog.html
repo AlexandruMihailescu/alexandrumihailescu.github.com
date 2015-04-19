@@ -5,7 +5,6 @@ permalink: /blog/
 ---
 {% include social.html %}
 
-<div id="fullWidthContainer" class="notScrolling">
   {% for post in site.posts limit: 100 %}
 
     {% if post.designs == nil and published == nil %}
@@ -38,4 +37,3 @@ permalink: /blog/
     {% endif %}
 
   {% endfor %}
-</div>
