@@ -5,7 +5,7 @@
     left: 0;
     right: 0;
     text-align: center;
-    background-color: {{page.backgroundcolour}};
+    background: {{page.backgroundcolour}};
 }
 #cover>img{
     max-width: 100%;
@@ -17,5 +17,5 @@
     height: 0;
 }
 nav{
-    background-color: {{page.backgroundcolour}};
+    background: {{page.backgroundcolour}};
 }
