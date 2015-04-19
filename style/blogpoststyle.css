@@ -22,3 +22,7 @@
     visibility: hidden;
     height: 0;
 }
+
+h1, .dateline{
+    text-align: left;
+}
