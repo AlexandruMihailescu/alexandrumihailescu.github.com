@@ -10,7 +10,7 @@ permalink: /blog/
     {% if post.designs == nil and published == nil %}
       <section>
         <a href="{{ post.url }}">
-          <h3>{{ post.title }}</h3>
+          <div>{{ post.title }}</div>
           <span>
   {% assign m = post.date | date: "%-m" %}
   {{ post.date | date: "%-d" }}
