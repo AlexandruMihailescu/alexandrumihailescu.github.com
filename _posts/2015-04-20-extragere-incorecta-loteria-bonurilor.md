@@ -49,9 +49,9 @@ Până la publicarea regulamentului de către minister m-am gândit cum evitau e
 
 Totuși, șansele de a fi extrasă o sumă validă anume au fost reduse de la 1/999 la 1/1000 pentru a face loc posibilității de 1/1000 de a ne face de râs. Regulamentul nu prevedea situația în care bilele 0 0 0 ar fi fost extrase, iar o altă extragere nu ar fi putut fi făcută decât prin ordin de ministru, așadar după închiderea emisiei.
 
-<h2><strong>Scoaterea bilei 0 în cazul a două bile 0 extrase - falsă soluție</strong></h2>
+<h2><strong>Scoaterea bilei zero în cazul a două bile zero extrase - falsă soluție</strong></h2>
 
-Mulți pot spune "hei, se putea scoate bila 0 din ultima urnă" pentru a evita situația. Asta ar fi ajutat la respectarea limitelor impuse sumei câștigătoare, însă ar fi afectat de asemenea șansele. Din cele 999 de valori posibil câștigătoare, 990 ar fi avut șanse de 1/1000 de a fi extrase, iar 9 ar fi avut șanse de 1/900 de a fi extrase, în locul șanselor de 1/999 impuse de extragerea aleatorie.
+Mulți pot spune "se putea scoate bila zero din ultima urnă" pentru a evita situația. Asta ar fi ajutat la respectarea limitelor impuse sumei câștigătoare, însă ar fi afectat de asemenea șansele. Din cele 999 de valori posibil câștigătoare, 990 ar fi avut șanse de 1/1000 de a fi extrase, iar 9 ar fi avut șanse de 1/900 de a fi extrase, în locul șanselor de 1/999 impuse de extragerea aleatorie.
 
 Dacă s-ar fi urmat această procedură, am fi ajuns la 4 grupuri de bonuri posibil câștigătoare cu șanse diferite:
 
@@ -67,7 +67,7 @@ Cele din martie cu sumă 10-999: 1/(2\*28\*1000)
 
 Ca și din Ministerul Finanțelor, matematicienii par să lipsească din media informațională românească. Până la publicarea acestui articol, la o săptămână după extragere, nu am văzut sau auzit ca vreo televiziune sau vreo publicație să fi tratat problema (deși două televiziuni s-au apropiat). Vă rog să-mi spuneți (comentarii, mail, twitter) dacă ați văzut pe undeva pentru a-i menționa cum se cuvine pe eventualii promotori ai educației matematice.
 
-Televiziunile care s-au apropiat de subiect, dar nu au continuat:
+Televiziunile care s-au apropiat de subiect, dar nu au pus problema incorectitudinii:
 
 [Digi24](http://www.digi24.ro/Stiri/Digi24/Actualitate/Social/Ce+sanse+aveti+sa+castigati+la+loteria+bonurilor+fiscale) - Domnul profesor Dinu Șerbănescu de la Colegiul Național "Sfântul Sava" a făcut un calcul aproximativ, de înțeles graba ținând cont că materialul a fost filmat în interiorul liceului, probabil într-o pauză.
 
