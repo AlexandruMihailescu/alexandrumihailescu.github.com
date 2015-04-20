@@ -278,7 +278,7 @@ nav.expanded #navigation {
 @media (max-aspect-ratio: 90/100)
 {
     body {
-        padding-top: 20vh;
+        padding-top: 21vh;
     }
     nav {
         height: 19vh;
