@@ -10,7 +10,7 @@ permalink: /blog/
     {% if post.designs == nil and published == nil %}
       <section>
         <a href="{{ post.url }}">
-          <div>{{ post.title }}</div>
+          <div>
           <span>
   {% assign m = post.date | date: "%-m" %}
   {{ post.date | date: "%-d" }}
@@ -29,7 +29,8 @@ permalink: /blog/
     {% when '12' %}Decembrie
   {% endcase %}
   {{ post.date | date: "%Y" }}</span> |
-          <span>Sumar: {{post.summary}}</span>
+        {{ post.title }}</div>
+          <div><span>Sumar: {{post.summary}}</span></div>
         </a>
       </section>
     {% endif %}
