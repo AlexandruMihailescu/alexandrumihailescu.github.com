@@ -55,13 +55,13 @@ Mulți pot spune "hei, se putea scoate bila 0 din ultima urnă" pentru a evita s
 
 Dacă s-ar fi urmat această procedură, am fi ajuns la 4 grupuri de bonuri posibil câștigătoare cu șanse diferite:
 
-Cele din februarie cu sumă 1-9: 1/(2*27*900)
+Cele din februarie cu sumă 1-9: 1/(2\*27\*900)
 
-Cele din februarie cu sumă 10-999: 1/(2*27*1000)
+Cele din februarie cu sumă 10-999: 1/(2\*27\*1000)
 
-Cele din martie cu sumă 1-9: 1/(2*28*900)
+Cele din martie cu sumă 1-9: 1/(2\*28\*900)
 
-Cele din martie cu sumă 10-999: 1/(2*28*1000)
+Cele din martie cu sumă 10-999: 1/(2\*28\*1000)
 
 <h2><strong>Probleme în presă și în minister</strong></h2>
 
@@ -71,7 +71,7 @@ Televiziunile care s-au apropiat de subiect, dar nu au continuat:
 
 [Digi24](http://www.digi24.ro/Stiri/Digi24/Actualitate/Social/Ce+sanse+aveti+sa+castigati+la+loteria+bonurilor+fiscale) - Domnul profesor Dinu Șerbănescu de la Colegiul Național "Sfântul Sava" a făcut un calcul aproximativ, de înțeles graba ținând cont că materialul a fost filmat în interiorul liceului, probabil într-o pauză.
 
-[RealitateaTV](http://www.realitatea.net) - Din păcate nu am reținut numele emisiunii, însă un domn prezentator a citit un mesaj al unui telespectator spunând că numărul 0 nu putea fi extras din ultima urnă, dacă memoria nu mă înșală. Am trimis acest articol televiziunii în speranța că mă va ajuta în eventuala corectare a acestui text.
+[RealitateaTV](http://www.realitatea.net) - Din păcate nu am reținut numele emisiunii, însă un domn prezentator a citit un mesaj al unui telespectator spunând că numărul 0 nu putea fi extras din ultima urnă (ceea ce era opusul problemei, dar o pistă de urmat în orice caz), dacă memoria nu mă înșală. Am trimis acest articol televiziunii în speranța că mă va ajuta în eventuala corectare a acestui text.
 
 <strong>Surse:</strong>
 
