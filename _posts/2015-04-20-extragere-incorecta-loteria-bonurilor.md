@@ -41,13 +41,13 @@ Extragerea însă, a fost organizată conform Anexei 2 a [Ordinului 417/2015 al 
 
 3.2.1.3 etapa III - bilele de la 0-9 (pentru extragerea cifrelor reprezentând valoarea totală a bonului fiscal) - trei boluri ale urnei Topaze;"
 
-Cum afectează asta extragerea? De la șanse egale de extragere a unei date (1/55), s-a ajuns la șanse egale de extragere a lunii (2=februarie, 3=martie) și șanse egale în cadrul unei luni de extragerea a unei zile (1/27 în februarie, 1/28 în martie), dar inegale în intervalul calendaristic (1/(2*27) pentru zilele din februarie, 1/(2*28) pentru cele din martie). Pe scurt: <strong>cei cu bonuri din februarie au avut mai șanse mai mari de câștig</strong>.
+Cum afectează asta extragerea? De la șanse egale de extragere a unei date (1/55), s-a ajuns la șanse egale de extragere a lunii (2=februarie, 3=martie) și șanse egale în cadrul unei luni de extragerea a unei zile (1/27 în februarie, 1/28 în martie), dar inegale în intervalul calendaristic (1/(2\*27) pentru zilele din februarie, 1/(2\*28) pentru cele din martie). Pe scurt: <strong>cei cu bonuri din februarie au avut mai șanse mai mari de câștig</strong>.
 
 <h2><strong>0 lei - suma ce putea să câștige ilegal</strong></h2>
 
 Până la publicarea regulamentului de către minister m-am gândit cum evitau ei cazul exclus de ordonanță: extragerea bilelor 0 0 0 în prima etapă, reprezentând suma de pe bonurile câștigătoare. Răspunsul a fost mai simplu decât mă așteptam: nu au făcut-o. Au fost introduse bile de la 0 la 9 în fiecare dintre cele trei urne. Primele două bile au avut valoarea 0, așadar s-a ajuns la o probabilitate de 10% ca extragerea să încalce public și evident pentru orice cetățean prevederile ordonanței. Organizatorii au avut noroc și a fost extrasă cifra 6.
 
-Totuși, șansele de a fi extrasă o sumă validă anume au fost reduse de la 1/999 la 1/1000 pentru a face loc posibilității de 1/1000 de a ne face de râs. Regulamentul nu prevedea situația în care bilele 0 0 0 ar fi fost extrase, iar o altă extragere nu ar fi putut fi făcută decât prin ordin de ministru.
+Totuși, șansele de a fi extrasă o sumă validă anume au fost reduse de la 1/999 la 1/1000 pentru a face loc posibilității de 1/1000 de a ne face de râs. Regulamentul nu prevedea situația în care bilele 0 0 0 ar fi fost extrase, iar o altă extragere nu ar fi putut fi făcută decât prin ordin de ministru, așadar după închiderea emisiei.
 
 <h2><strong>Scoaterea bilei 0 în cazul a două bile 0 extrase - falsă soluție</strong></h2>
 
