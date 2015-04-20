@@ -43,9 +43,9 @@ Extragerea însă, a fost organizată conform Anexei 2 a [Ordinului 417/2015 al 
 
 Cum afectează asta extragerea? De la șanse egale de extragere a unei date (1/55), s-a ajuns la șanse egale de extragere a lunii (2=februarie, 3=martie) și șanse egale în cadrul unei luni de extragerea a unei zile (1/27 în februarie, 1/28 în martie), dar inegale în intervalul calendaristic (1/(2\*27) pentru zilele din februarie, 1/(2\*28) pentru cele din martie). Pe scurt: <strong>cei cu bonuri din februarie au avut mai șanse mai mari de câștig</strong>.
 
-<h2><strong>0 lei - suma ce putea să câștige ilegal</strong></h2>
+<h2><strong>Zero lei - suma ce putea să câștige ilegal</strong></h2>
 
-Până la publicarea regulamentului de către minister m-am gândit cum evitau ei cazul exclus de ordonanță: extragerea bilelor 0 0 0 în prima etapă, reprezentând suma de pe bonurile câștigătoare. Răspunsul a fost mai simplu decât mă așteptam: nu au făcut-o. Au fost introduse bile de la 0 la 9 în fiecare dintre cele trei urne. Primele două bile au avut valoarea 0, așadar s-a ajuns la o probabilitate de 10% ca extragerea să încalce public și evident pentru orice cetățean prevederile ordonanței. Organizatorii au avut noroc și a fost extrasă cifra 6.
+Până la publicarea regulamentului de către minister m-am gândit cum evitau ei cazul exclus de ordonanță: extragerea bilelor zero zero zero în prima etapă, reprezentând suma de pe bonurile câștigătoare. Răspunsul a fost mai simplu decât mă așteptam: nu au făcut-o. Au fost introduse bile de la 0 la 9 în fiecare dintre cele trei urne. Primele două bile au avut valoarea zero, așadar s-a ajuns la o probabilitate de 10% ca extragerea să încalce public și evident pentru orice cetățean prevederile ordonanței. Organizatorii au avut noroc și a fost extrasă cifra 6.
 
 Totuși, șansele de a fi extrasă o sumă validă anume au fost reduse de la 1/999 la 1/1000 pentru a face loc posibilității de 1/1000 de a ne face de râs. Regulamentul nu prevedea situația în care bilele 0 0 0 ar fi fost extrase, iar o altă extragere nu ar fi putut fi făcută decât prin ordin de ministru, așadar după închiderea emisiei.
 
@@ -62,6 +62,12 @@ Cele din februarie cu sumă 10-999: 1/(2\*27\*1000)
 Cele din martie cu sumă 1-9: 1/(2\*28\*900)
 
 Cele din martie cu sumă 10-999: 1/(2\*28\*1000)
+
+<h2><strong>Posibile soluții</strong></h2>
+
+Pentru a ușura extragerile viitoare, aș propune ca suma zero să poată fi câștigătoare. Astfel, sistemul de extragere se păstrează pentru sumă, iar cetățenii ce fac cumpărături cu valori cuprinse între 0,01 și 0,99 de lei vor fi motivați asemenea celorlalți să ceară bonul fiscal.
+
+Pentru dată propun să nu se facă extrageri pe durate mari, permițând ca extragerea zilei din interval să se facă conform ordonanței, într-o singură etapă, cu valori de la 1 la numărul de zile din interval; de altfel cred că scopul loteriei nu e ca fiecare cetățean să-și umple sertarele bibliotecilor cu bonuri adunate în ani de zile. Mi se pare o măsură ușor de luat în lipsa unei metode viabile de extragere (evident că o extragere pentru un interval de 300 de zile, cum ar putea fi de exemplu treansformata [extragerea de Crăciun anunțată pentru bonuri din lunile februarie-decembrie](http://gov.ro/ro/stiri/briefing-de-presa-sustinut-de-ministrul-finantelor-publice-darius-valcov-i-de-purtatorul-de-cuvant-al-guvernului-corneliu-calota-la-finalul-edintei-de-guvern), ar fi ușor de realizat cu trei urne, una cu bile 0-2, celelalte cu 0-9, considerand combinatia 000 ca avand valoarea 300, sau incepand pur si simplu numaratoarea de la 0, ca programatorii).
 
 <h2><strong>Probleme în presă și în minister</strong></h2>
 
