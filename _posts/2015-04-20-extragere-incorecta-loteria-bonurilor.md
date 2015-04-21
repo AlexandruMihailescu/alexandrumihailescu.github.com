@@ -71,13 +71,13 @@ Pentru dată propun să nu se facă extrageri pe durate mari, permițând ca ext
 
 <h2><strong>Probleme în presă și în minister</strong></h2>
 
-Ca și din Ministerul Finanțelor, matematicienii par să lipsească din media informațională românească. Până la publicarea acestui articol, la o săptămână după extragere, nu am văzut sau auzit ca vreo televiziune sau vreo publicație să fi tratat problema (deși două televiziuni s-au apropiat). Vă rog să-mi spuneți (comentarii, mail, twitter) dacă ați văzut pe undeva pentru a-i menționa cum se cuvine pe eventualii promotori ai educației matematice.
+Ca și din Ministerul Finanțelor, matematicienii par să lipsească din media informațională românească. Până la publicarea acestui articol, la o săptămână după extragere, nu am văzut, auzit sau găsit ca vreo televiziune sau vreo publicație să fi tratat problema (deși două televiziuni s-au apropiat).
 
 Televiziunile care s-au apropiat de subiect, dar nu au pus problema incorectitudinii:
 
-[Digi24](http://www.digi24.ro/Stiri/Digi24/Actualitate/Social/Ce+sanse+aveti+sa+castigati+la+loteria+bonurilor+fiscale) - Domnul profesor Dinu Șerbănescu de la Colegiul Național "Sfântul Sava" a făcut un calcul aproximativ, de înțeles graba ținând cont că materialul a fost filmat în interiorul liceului, probabil într-o pauză.
+[Digi24](http://www.digi24.ro/Stiri/Digi24/Actualitate/Social/Ce+sanse+aveti+sa+castigati+la+loteria+bonurilor+fiscale) - Domnul profesor Dinu Șerbănescu de la Colegiul Național "Sfântul Sava" a făcut un calcul aproximativ; de înțeles graba ținând cont că materialul a fost filmat în interiorul liceului, probabil într-o pauză.
 
-[RealitateaTV](http://www.realitatea.net) - Din păcate nu am reținut numele emisiunii, însă un domn prezentator a citit un mesaj al unui telespectator spunând că numărul 0 nu putea fi extras din ultima urnă (ceea ce era opusul problemei, dar o pistă de urmat în orice caz), dacă memoria nu mă înșală. Am trimis acest articol televiziunii în speranța că mă va ajuta în eventuala completare a acestui text.
+[RealitateaTV](http://www.realitatea.net) - Din păcate nu am reținut numele emisiunii, însă un domn prezentator a citit un mesaj al unui telespectator spunând că numărul 0 nu putea fi extras din ultima urnă (ceea ce era opusul problemei, dar o pistă de urmat în orice caz), dacă memoria nu mă înșală. Am trimis acest articol televiziunii în speranța că mă va ajuta în eventuala completare a acestui paragraf.
 
 <strong>Surse:</strong>
 
