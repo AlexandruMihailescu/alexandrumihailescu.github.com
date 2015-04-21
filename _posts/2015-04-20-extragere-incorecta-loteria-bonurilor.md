@@ -9,7 +9,7 @@ O extragere corectă urmărește legea (în acest caz [Ordonanța de Guvern 10/2
 
 " Art.2 - (1) Loteria bonurilor fiscale se organizează lunar și constă în extragerea aleatorie de numere, astfel:
 
-a) un număr cuprin în intervalul dintre 1 și 999 inclusiv, reprezentând valoarea totală a bonului fiscal fără subdiviziunile leului, inclusiv taxa pe valoare adăugată. Numărul reprezentând valoarea totală a bonului fiscal, rezultă  în urma extragerii succesive a trei serii de cifre, cuprinse între 0 și 9;
+a) un număr cuprins în intervalul dintre 1 și 999 inclusiv, reprezentând valoarea totală a bonului fiscal fără subdiviziunile leului, inclusiv taxa pe valoare adăugată. Numărul reprezentând valoarea totală a bonului fiscal, rezultă  în urma extragerii succesive a trei serii de cifre, cuprinse între 0 și 9;
 
 și
 
@@ -27,7 +27,7 @@ Comentariu neesențial: Ținând cont că prima extragere lunară va avea loc î
 
 <h2><strong>Bonurile din februarie au avut șanse mai mari de câștig</strong></h2>
 
-Astfel, extragerea datei câștigătoare a încălcat prevederile ordonanței. Extragerea din 13.04.2015 a fost organizată cu ocazia unei sărbători legale, conform [Ordinului 106/2015 al Ministerului Finanțelor Publice](http://discutii.mfinante.ro/static/10/Mfp/OMFP106_2015.pdf), intervalul calendaristic fiind "între data de 2 februarie și data de 28 martie 2015". Astfel, conform ordonanței, ar fi trebuit să se extragă, aleator, un număr în intervalul 1-55, fiind vorba de 55 de zile.
+Extragerea datei câștigătoare a încălcat prevederile ordonanței. Extragerea din 13.04.2015 a fost organizată cu ocazia unei sărbători legale, conform [Ordinului 106/2015 al Ministerului Finanțelor Publice](http://discutii.mfinante.ro/static/10/Mfp/OMFP106_2015.pdf), intervalul calendaristic fiind "între data de 2 februarie și data de 28 martie 2015". Astfel, conform ordonanței, ar fi trebuit să se extragă, aleator, un număr în intervalul 1-55, fiind vorba de 55 de zile.
 
 Extragerea însă, a fost organizată conform Anexei 2 a [Ordinului 417/2015 al Ministerului Finanțelor Publice](http://discutii.mfinante.ro/static/10/Mfp/OMFP417_2015.pdf) care contravine ordonanței. Conform titlului 3.2 "Extragerea variantelor câștigătoare pentru Loteria Bonurilor Fiscale", extragerea se face în trei etape, extragerea datei devenind prima și împărțindu-se în două:
 
@@ -41,7 +41,7 @@ Extragerea însă, a fost organizată conform Anexei 2 a [Ordinului 417/2015 al 
 
 3.2.1.3 etapa III - bilele de la 0-9 (pentru extragerea cifrelor reprezentând valoarea totală a bonului fiscal) - trei boluri ale urnei Topaze;"
 
-Cum afectează asta extragerea? De la șanse egale de extragere a unei date (1/55), s-a ajuns la șanse egale de extragere a lunii (2=februarie, 3=martie) și șanse egale în cadrul unei luni de extragerea a unei zile (1/27 în februarie, 1/28 în martie), dar inegale în intervalul calendaristic (1/(2\*27) pentru zilele din februarie, 1/(2\*28) pentru cele din martie). Pe scurt: <strong>cei cu bonuri din februarie au avut mai șanse mai mari de câștig</strong>.
+Cum afectează asta extragerea? De la șanse egale de extragere a unei date (1/55), s-a ajuns la șanse egale de extragere a lunii (2=februarie, 3=martie) și șanse egale în cadrul unei luni de extragerea a unei zile (1/27 în februarie, 1/28 în martie), dar inegale în intervalul calendaristic (1/(2\*27) pentru zilele din februarie, 1/(2\*28) pentru cele din martie). Pe scurt: <strong>cei cu bonuri din februarie au avut șanse mai mari de câștig</strong>.
 
 <h2><strong>Zero lei - suma ce putea să câștige ilegal</strong></h2>
 
