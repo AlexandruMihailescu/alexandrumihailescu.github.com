@@ -5,7 +5,7 @@ cover: blog/covers/loto000.jpg
 backgroundcolour: "#135613"
 summary: Scurtă explicație a incorectitudinii primei extrageri.
 ---
-O extragere corectă urmărește legea (în acest caz [Ordonanța de Guvern 10/2015](http://www.cdep.ro/proiecte/2015/200/50/0/og282.pdf)) și oferă șanse egale tuturor posibilelor soluții. Această egalitate de șanse pare a se găsi și în spiritul ordonanței, extragerea fiind "aleatorie de numere". Ca întotdeauna, vă sfătuiesc să citiți în întregime documentul; în acest articol voi face trimiteri și la alte articole, însă mă voi baza pe articolul 2:
+O extragere corectă urmărește legea (în acest caz [Ordonanța de Guvern 10/2015](http://www.cdep.ro/proiecte/2015/200/50/0/og282.pdf)) și oferă șanse egale tuturor posibilelor soluții. Această egalitate de șanse pare a se găsi și în spiritul ordonanței, extragerea fiind "aleatorie de numere". Ca întotdeauna, vă sfătuiesc să citiți în întregime documentul; în acest articol voi face trimiteri și la alte documente, însă mă voi baza pe articolul 2 al acestuia:
 
 " Art.2 - (1) Loteria bonurilor fiscale se organizează lunar și constă în extragerea aleatorie de numere, astfel:
 
