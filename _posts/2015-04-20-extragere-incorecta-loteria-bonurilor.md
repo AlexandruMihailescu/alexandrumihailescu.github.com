@@ -69,9 +69,7 @@ Pentru a ușura extragerile viitoare, propun ca suma zero să poată fi câștig
 
 Pentru dată propun să nu se facă extrageri pe durate mari, permițând ca extragerea zilei din interval să se facă conform ordonanței, într-o singură etapă, cu valori de la 1 la numărul de zile din interval; de altfel cred că scopul loteriei nu e ca fiecare cetățean să-și umple sertarele bibliotecilor cu bonuri adunate în ani de zile. Pentru a onora [declarația domnului ministru al finanțelor publice privind extragerea de Crăciun](http://gov.ro/ro/stiri/briefing-de-presa-sustinut-de-ministrul-finantelor-publice-darius-valcov-i-de-purtatorul-de-cuvant-al-guvernului-corneliu-calota-la-finalul-edintei-de-guvern) anunțată inițial pentru bonuri din lunile februarie-decembrie, propun o extragere pentru 300 de zile (e.g. 10 februarie-6 decembrie, având în vedere cheltuielile de Moș Nicolae), cu 3 urne pentru dată, una cu bile 0-2, celelalte cu 0-9, considerând combinația 000 ca având valoarea 300, sau începând pur și simplu numărătoarea de la 0, ca programatorii).
 
-<h2><strong>Probleme în presă și în minister</strong></h2>
-
-Ca și din Ministerul Finanțelor, matematicienii par să lipsească din media informațională românească. Până la publicarea acestui articol, la o săptămână după extragere, nu am văzut, auzit sau găsit ca vreo televiziune sau vreo publicație să fi tratat problema (deși două televiziuni s-au apropiat).
+<h2><strong>Probleme în presă?</strong></h2>
 
 Televiziunile care s-au apropiat de subiect, dar nu au pus problema incorectitudinii:
 
